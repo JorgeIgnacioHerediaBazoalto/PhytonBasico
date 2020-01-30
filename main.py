@@ -16,3 +16,12 @@ vehiculos_list=[auto1, auto2, auto3]
 
 s=Simulador(vehiculos_list)
 s.iniciar_simulacion(2)
+
+
+from calculadora import Calculadora
+Nums=Calculadora("3",5)
+#Nums.sacar_exponente()
+#Nums.sumar()
+#Nums.restar()
+Nums.multiplicar()
+#Nums.dividir()
